@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astro Studio — Marketing para Restaurantes y Marcas Gastronómicas</title>
+    <meta name="description"
+        content="Agencia de marketing especializada en restaurantes, dark kitchens y marcas de comida. Branding, contenido, Meta Ads y sistema de pedidos con Wippy para que tu negocio consiga más clientes.">
+    <meta name="keywords"
+        content="marketing para restaurantes, agencia marketing gastronómico, publicidad restaurantes, Meta Ads restaurantes, marketing gastronómico Chile, dark kitchen marketing">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Astro Studio — Marketing para Restaurantes">
+    <meta property="og:description"
+        content="Ayudamos a restaurantes y marcas gastronómicas a atraer más clientes y generar más pedidos. Branding, contenido, Meta Ads y Wippy.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://astrostudio.cl">
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Astro Studio — Marketing para Restaurantes">
+    <meta name="twitter:description"
+        content="Branding, contenido, Meta Ads y sistema de pedidos para que tu restaurante venda más.">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/Favicon.png">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/gastro-theme.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ============ NAVBAR ============ -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Navegación principal">
+        <div class="navbar-logo">
+            <a href="#inicio" aria-label="Astro Studio - Inicio">
+                <img src="assets/img/Logo.svg" alt="Astro Studio" height="34">
+            </a>
+        </div>
+    </nav>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero fade-in" id="inicio">
+        <div class="hero-blur-orbs">
+            <div class="blur-orb orb-1"></div>
+            <div class="blur-orb orb-2"></div>
+            <div class="blur-orb orb-3"></div>
+            <div class="blur-orb orb-4"></div>
+            <div class="blur-orb orb-5"></div>
+        </div>
+        <div class="hero-content">
+
+            <h1 class="hero-title">
+                <span class="title-line">Más <span class="gradient-text-warm">pedidos.</span></span>
+                <span class="title-line">Más <span class="text-white-glow">clientes.</span></span>
+                <span class="title-line">Más <span class="highlight glitch"
+                        data-text="crecimiento.">crecimiento.</span></span>
+            </h1>
+            <p
+                style="font-size: 1.1rem; max-width: 580px; margin: 0 auto 0.5rem; color: var(--text-light); font-weight: 300; line-height: 1.75;">
+                Ayudamos a restaurantes y marcas gastronómicas a atraer clientes con contenido, publicidad y un sistema
+                diseñado para convertir visitas en pedidos.
+            </p>
+            <div class="hero-pill-tags">
+                Branding <span>·</span> Contenido <span>·</span> Meta Ads <span>·</span> Wippy
+            </div>
+            <div class="cta-buttons">
+                <a href="https://wa.me/56951786715?text=Hola+Astro+Studio+%F0%9F%91%8B%2C+quiero+saber+c%C3%B3mo+pueden+ayudar+a+mi+restaurante+a+vender+m%C3%A1s.+Vengo+desde+su+sitio+web."
+                    class="btn btn-primary" id="hero-cta-primary">
+                    Quiero vender más
+                </a>
+                <a href="#como-trabajamos" class="btn btn-secondary" id="hero-cta-secondary">
+                    Ver cómo funciona
+                </a>
+            </div>
+            <!-- Hero visual: Video local (assets/img/video.mp4) -->
+            <div class="hero-video-wrapper">
+                <video class="hero-video" autoplay loop muted playsinline>
+                    <source src="assets/img/video.mp4" type="video/mp4">
+                    Tu navegador no soporta el formato de video.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ MARQUEE: Tipos de negocio ============ -->
+    <section class="values-marquee" aria-label="Tipos de negocios que atendemos">
+        <div class="marquee-container">
+            <div class="marquee-content">
+                <div class="value-tag blue">Restaurantes</div>
+                <div class="value-tag purple">Dark Kitchens</div>
+                <div class="value-tag green">Cafeterías</div>
+                <div class="value-tag blue">Pizzerías</div>
+                <div class="value-tag purple">Food Trucks</div>
+                <div class="value-tag green">Hamburgueserías</div>
+                <div class="value-tag blue">Delivery</div>
+                <div class="value-tag purple">Marcas de Alimentos</div>
+                <div class="value-tag green">Emprendimientos</div>
+                <div class="value-tag blue">Brunch</div>
+                <div class="value-tag purple">Sushi</div>
+                <div class="value-tag green">Heladerías</div>
+                <!-- Duplicado para efecto continuo -->
+                <div class="value-tag blue">Restaurantes</div>
+                <div class="value-tag purple">Dark Kitchens</div>
+                <div class="value-tag green">Cafeterías</div>
+                <div class="value-tag blue">Pizzerías</div>
+                <div class="value-tag purple">Food Trucks</div>
+                <div class="value-tag green">Hamburgueserías</div>
+                <div class="value-tag blue">Delivery</div>
+                <div class="value-tag purple">Marcas de Alimentos</div>
+                <div class="value-tag green">Emprendimientos</div>
+                <div class="value-tag blue">Brunch</div>
+                <div class="value-tag purple">Sushi</div>
+                <div class="value-tag green">Heladerías</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ PROBLEMA: Sin Astro / Con Astro ============ -->
+    <section class="problem-section">
+        <div class="problem-container">
+            <div class="problem-header">
+                <h2>Publicar no es una estrategia.</h2>
+                <p>Tu restaurante puede tener buena comida y aun así perder ventas si nadie lo descubre o si el proceso
+                    para pedir es complicado.</p>
+            </div>
+            <div class="problem-grid">
+                <div class="problem-col problem-col--bad">
+                    <div class="problem-col-label">
+                        <span class="problem-icon">✗</span>
+                        Sin Astro Studio
+                    </div>
+                    <ul class="problem-list">
+                        <li>Contenido improvisado sin estrategia</li>
+                        <li>Promociones que no generan ventas</li>
+                        <li>Anuncios sin resultados claros</li>
+                        <li>Clientes que preguntan pero no compran</li>
+                        <li>WhatsApp desordenado</li>
+                        <li>Sin datos sobre qué funciona</li>
+                    </ul>
+                </div>
+                <div class="problem-divider"></div>
+                <div class="problem-col problem-col--good">
+                    <div class="problem-col-label">
+                        <span class="problem-icon problem-icon--good">✓</span>
+                        Con Astro Studio
+                    </div>
+                    <ul class="problem-list problem-list--good">
+                        <li>Marca coherente y atractiva</li>
+                        <li>Contenido diseñado para vender</li>
+                        <li>Campañas locales que generan pedidos</li>
+                        <li>Seguimiento claro de resultados</li>
+                        <li>Proceso de pedidos optimizado</li>
+                        <li>Sistema preparado para crecer</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ SISTEMA ASTRO ============ -->
+    <section class="sistema-section" id="como-trabajamos">
+        <div class="sistema-header">
+            <h2>De desconocido a cliente.</h2>
+            <p>Construimos un sistema completo que conecta tu marca con las personas correctas y las convierte en
+                pedidos.</p>
+        </div>
+        <div class="sistema-steps">
+            <div class="sistema-step">
+                <div class="sistema-step-num">01</div>
+                <h3>Marca</h3>
+                <p>Construimos una identidad que haga que tu negocio se vea profesional, atractivo y reconocible.</p>
+            </div>
+            <div class="sistema-step">
+                <div class="sistema-step-num">02</div>
+                <h3>Contenido</h3>
+                <p>Creamos contenido diseñado para despertar interés y generar intención de compra.</p>
+            </div>
+            <div class="sistema-step">
+                <div class="sistema-step-num">03</div>
+                <h3>Tráfico</h3>
+                <p>Utilizamos campañas publicitarias para llevar personas de la zona a tu negocio.</p>
+            </div>
+            <div class="sistema-step">
+                <div class="sistema-step-num">04</div>
+                <h3>Conversión</h3>
+                <p>Convertimos esa atención en conversaciones y pedidos mediante WhatsApp y Wippy.</p>
+            </div>
+        </div>
+        <!-- Recorrido del cliente -->
+        <div class="sistema-journey">
+            <div class="journey-label">
+                TE VEN
+                <small>Marca &amp; Contenido</small>
+            </div>
+            <span class="journey-arrow">&#8594;</span>
+            <div class="journey-label">
+                LES DA HAMBRE
+                <small>Creatividad &amp; Video</small>
+            </div>
+            <span class="journey-arrow">&#8594;</span>
+            <div class="journey-label">
+                HACEN CLIC
+                <small>Meta Ads &amp; Tráfico</small>
+            </div>
+            <span class="journey-arrow">&#8594;</span>
+            <div class="journey-label">
+                PIDEN
+                <small>WhatsApp &amp; Wippy</small>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ SERVICIOS ============ -->
+    <section class="services" id="servicios">
+        <div class="services-header">
+            <h2>Todo lo necesario para convertir atención en ventas.</h2>
+        </div>
+        <div class="services-grid-3">
+            <!-- Branding -->
+            <div class="service-card branding">
+                <div class="service-content">
+                    <h3>Branding Gastronómico</h3>
+                    <p>Tu marca como la primera razón para elegirte.</p>
+                    <ul class="service-list">
+                        <li>Identidad visual</li>
+                        <li>Diseño de marca</li>
+                        <li>Menús digitales e impresos</li>
+                        <li>Packaging</li>
+                        <li>Material gráfico</li>
+                        <li>Diseño para redes sociales</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Marketing & Contenido -->
+            <div class="service-card uxui">
+                <div class="service-content">
+                    <h3>Marketing &amp; Contenido</h3>
+                    <p>Visibilidad que genera hambre y conversaciones.</p>
+                    <ul class="service-list">
+                        <li>Estrategia de contenido</li>
+                        <li>Reels y fotografía mensual</li>
+                        <li>Promociones creativas</li>
+                        <li>Campañas estacionales</li>
+                        <li>Meta Ads locales</li>
+                        <li>Optimización continua</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Sistema de Pedidos -->
+            <div class="service-card development">
+                <div class="service-content">
+                    <h3>Sistema de Pedidos</h3>
+                    <p>Tu sistema de pedidos incluido.</p>
+                    <ul class="service-list">
+                        <li>WhatsApp Business configurado</li>
+                        <li>Catálogo digital</li>
+                        <li>Wippy integrado</li>
+                        <li>Automatizaciones</li>
+                        <li>Gestión de pedidos</li>
+                        <li>Experiencia de compra optimizada</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 3.5rem;">
+            <a href="https://wa.me/56951786715?text=Hola+Astro+Studio+%F0%9F%91%8B%2C+quiero+saber+m%C3%A1s+sobre+sus+servicios+para+restaurantes."
+                class="btn btn-primary" id="services-cta">
+                Quiero vender más
+            </a>
+        </div>
+    </section>
+
+    <!-- ============ WIPPY ============ -->
+    <section class="wippy-section" id="wippy">
+        <div class="wippy-inner">
+            <div class="wippy-content">
+                <span class="eyebrow">Tecnología Incluida</span>
+                <h2>No solo llevamos clientes. También hacemos más fácil que compren.</h2>
+                <p>Astro integra Wippy, un sistema de pedidos diseñado para negocios que venden mediante WhatsApp. Menos
+                    fricción para el cliente, más pedidos para ti.</p>
+                <ul class="wippy-benefits">
+                    <li>Menú digital siempre actualizado</li>
+                    <li>Pedidos organizados automáticamente</li>
+                    <li>Integración nativa con WhatsApp</li>
+                    <li>Menos pasos para que el cliente compre</li>
+                    <li>Experiencia profesional en cada pedido</li>
+                </ul>
+                <a href="https://wa.me/56951786715?text=Hola+Astro+Studio+%F0%9F%91%8B%2C+quiero+saber+m%C3%A1s+sobre+Wippy+y+el+sistema+de+pedidos+para+mi+restaurante."
+                    class="wippy-cta" id="wippy-cta">
+                    Ver cómo funciona Wippy
+                </a>
+            </div>
+            <!-- Flujo visual Wippy -->
+            <div class="wippy-flow">
+                <div class="wippy-flow-step">
+                    <div class="wippy-flow-bubble"><i class="fa-solid fa-bullhorn"></i> Anuncio</div>
+                </div>
+                <div class="wippy-flow-arrow"></div>
+                <div class="wippy-flow-step">
+                    <div class="wippy-flow-bubble"><i class="fa-solid fa-utensils"></i> Menú digital</div>
+                </div>
+                <div class="wippy-flow-arrow"></div>
+                <div class="wippy-flow-step">
+                    <div class="wippy-flow-bubble"><i class="fa-solid fa-basket-shopping"></i> Pedido</div>
+                </div>
+                <div class="wippy-flow-arrow"></div>
+                <div class="wippy-flow-step">
+                    <div class="wippy-flow-bubble"><i class="fa-brands fa-whatsapp"></i> WhatsApp</div>
+                </div>
+                <div class="wippy-flow-arrow"></div>
+                <div class="wippy-flow-step highlight">
+                    <div class="wippy-flow-bubble"><i class="fa-solid fa-circle-check"></i> Venta</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ RESULTADOS ============ -->
+    <section class="portfolio" id="resultados">
+        <div class="portfolio-header">
+            <h2>Casos que construimos.</h2>
+            <p class="portfolio-description">Estrategias reales para negocios gastronómicos. Resultados que se miden.
+            </p>
+        </div>
+
+        <!-- Caso Cubacano -->
+        <div class="resultado-card">
+            <div class="resultado-visual">
+                <img src="assets/img/portfolio/cubacano.jpg" alt="Cubacano — Sándwich cubano en Santiago" loading="lazy">
+            </div>
+            <div class="resultado-info">
+                <div class="resultado-category">Marca Gastronómica &middot; Dark Kitchen</div>
+                <div class="resultado-name">Cubacano</div>
+                <p class="resultado-description">
+                    Construcción de marca desde cero para una dark kitchen con foco en delivery. Desarrollamos identidad
+                    visual, estrategia de contenido, campaña de Meta Ads local y sistema de pedidos con Wippy para
+                    simplificar el proceso de compra.
+                </p>
+                <div class="resultado-services">
+                    <span class="resultado-service-tag">Branding</span>
+                    <span class="resultado-service-tag">Contenido</span>
+                    <span class="resultado-service-tag">Meta Ads</span>
+                    <span class="resultado-service-tag">WhatsApp</span>
+                    <span class="resultado-service-tag">Wippy</span>
+                </div>
+                <!-- Métricas: descomentar y editar con datos reales -->
+                <!--
+            <div class="resultado-metrics">
+                <div class="resultado-metric">
+                    <div class="resultado-metric-value">DATO</div>
+                    <div class="resultado-metric-label">Descripción</div>
+                </div>
+                <div class="resultado-metric">
+                    <div class="resultado-metric-value">DATO</div>
+                    <div class="resultado-metric-label">Descripción</div>
+                </div>
+            </div>
+            -->
+                <a href="https://wa.me/56951786715?text=Hola+Astro+Studio+%F0%9F%91%8B%2C+me+interes%C3%B3+el+caso+de+Cubacano.+%C2%BFPodemos+hablar+sobre+algo+similar+para+mi+negocio%3F"
+                    class="btn btn-primary" id="cubacano-cta" style="align-self: flex-start; margin-top: 0.5rem;">
+                    Quiero algo similar
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ PLANES ============ -->
+    <section class="pricing" id="planes">
+        <div class="pricing-header">
+            <div class="pricing-title-wrapper">
+                <h2>Tu inversión,</h2>
+                <h2><span class="highlight-box">Fase a Fase</span></h2>
+            </div>
+            <p class="pricing-description">
+                Planes adaptados al momento de tu negocio. Sin contratos eternos, sin sorpresas. Cada plan se ajusta a
+                tus objetivos reales.
+            </p>
+        </div>
+
+        <div class="pricing-cards">
+            <!-- Despegue -->
+            <div class="pricing-card">
+                <div class="pricing-card-header">
+                    <h3>Despegue</h3>
+                    <span class="pricing-badge">Plan 1</span>
+                    <p class="pricing-target">Para negocios que necesitan construir o mejorar su presencia digital.</p>
+                </div>
+                <div class="pricing-summary">
+                    <p><strong>Qué incluye:</strong> Branding o rediseño de marca, estrategia de contenido, diseño de
+                        perfiles sociales y sistema de pedidos básico.</p>
+                    <p style="margin-top: 1rem; color: var(--text-lighter); font-size: 0.95rem;">Ideal para empezar con
+                        una base sólida y profesional.</p>
+                </div>
+                <a href="https://wa.me/56951786715?text=Hola+Astro+Studio+%F0%9F%91%8B%2C+quiero+consultar+por+el+plan+Despegue+para+mi+restaurante."
+                    class="pricing-btn" id="plan-despegue-cta">
+                    Consultar por WhatsApp
+                </a>
+            </div>
+
+            <!-- Crecimiento (featured) -->
+            <div class="pricing-card featured">
+                <div class="pricing-card-header">
+                    <h3>Crecimiento</h3>
+                    <span class="pricing-badge">Más popular</span>
+                    <p class="pricing-target">Para restaurantes que quieren generar clientes de manera constante.</p>
+                </div>
+                <div class="pricing-summary">
+                    <p><strong>Qué incluye:</strong> Contenido mensual, reels, campañas de Meta Ads locales, gestión de
+                        WhatsApp Business, Wippy integrado y reporte mensual de resultados.</p>
+                    <p style="margin-top: 1rem; color: rgba(255,255,255,0.75); font-size: 0.95rem;">El plan más elegido
+                        por restaurantes que quieren resultados consistentes.</p>
+                </div>
+                <a href="https://wa.me/56951786715?text=Hola+Astro+Studio+%F0%9F%91%8B%2C+quiero+consultar+por+el+plan+Crecimiento+para+mi+restaurante."
+                    class="pricing-btn" id="plan-crecimiento-cta">
+                    Consultar por WhatsApp
+                </a>
+            </div>
+
+            <!-- Partner -->
+            <div class="pricing-card">
+                <div class="pricing-card-header">
+                    <h3>Partner</h3>
+                    <span class="pricing-badge">Plan 3</span>
+                    <p class="pricing-target">Para negocios que quieren delegar estrategia, contenido, publicidad y
+                        crecimiento.</p>
+                </div>
+                <div class="pricing-summary">
+                    <p><strong>Qué incluye:</strong> Todo lo del plan Crecimiento, más estrategia completa, producción
+                        audiovisual premium, soporte prioritario y dirección de marca continua.</p>
+                    <p style="margin-top: 1rem; color: var(--text-lighter); font-size: 0.95rem;">Para marcas que quieren
+                        crecer rápido y de forma sostenida.</p>
+                </div>
+                <a href="https://wa.me/56951786715?text=Hola+Astro+Studio+%F0%9F%91%8B%2C+quiero+consultar+por+el+plan+Partner+para+mi+restaurante."
+                    class="pricing-btn" id="plan-partner-cta">
+                    Consultar por WhatsApp
+                </a>
+            </div>
+        </div>
+
+        <div class="pricing-cta">
+            <p class="pricing-cta-text">¿No sabes qué plan es el correcto para tu negocio?</p>
+            <a href="https://wa.me/56951786715?text=Hola+Astro+Studio+%F0%9F%91%8B%2C+quiero+saber+qu%C3%A9+plan+se+adapta+mejor+a+mi+restaurante."
+                class="pricing-cta-btn" id="pricing-cta">
+                Hablemos
+            </a>
+        </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="faq" id="faq">
+        <div class="faq-container">
+            <div class="faq-title">
+                <h2>Preguntas</h2>
+                <div class="subtitle">frecuentes</div>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Trabajan solamente con restaurantes?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Nos especializamos en negocios gastronómicos: restaurantes, dark kitchens, cafeterías, food
+                        trucks, pizzerías, hamburgueserías, delivery y marcas de alimentos. Si tu negocio vende comida,
+                        estamos para ayudarte.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Necesito tener redes sociales activas?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        No es necesario. Trabajamos con negocios desde cero y con negocios que ya tienen presencia pero
+                        quieren mejorar sus resultados. En ambos casos comenzamos por definir la estrategia correcta
+                        para tu situación.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿El presupuesto de publicidad está incluido?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        No. El presupuesto de pauta en Meta Ads es adicional y lo decides tú. Nosotros gestionamos tus
+                        campañas y te ayudamos a definir cuánto invertir según tus objetivos. Tú siempre tienes el
+                        control de tu dinero.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Qué es Wippy?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Wippy es el sistema de pedidos que integramos en tu negocio. Permite que tus clientes vean tu
+                        menú digital, hagan su pedido y lo envíen directamente por WhatsApp de forma clara y organizada.
+                        Menos preguntas, más pedidos.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Pueden crear mi marca desde cero?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Sí. Diseñamos identidades visuales completas: logo, paleta de colores, tipografía, tono de
+                        comunicación y aplicaciones gráficas. Una marca bien construida es la base de todo lo demás.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Trabajan con negocios pequeños?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Sí. Trabajamos con negocios de distintos tamaños, desde emprendimientos gastronómicos que están
+                        empezando hasta restaurantes con múltiples sucursales. Adaptamos la estrategia al tamaño y
+                        objetivo de cada negocio.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Cuánto tiempo tarda en empezar una campaña?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        El onboarding tarda entre 1 y 2 semanas dependiendo del trabajo previo necesario (branding,
+                        configuración de cuentas, contenido inicial). Las campañas de Meta Ads pueden activarse en los
+                        primeros días una vez que tenemos todo configurado.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Cómo medimos los resultados?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Entregamos reportes mensuales con las métricas relevantes para tu negocio: alcance, clics,
+                        conversaciones generadas, pedidos y costo por resultado. Siempre sabes qué está pasando con tu
+                        inversión.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ CTA FINAL ============ -->
+    <section class="cta-final">
+        <h2>Tu próxima venta puede empezar con un clic.</h2>
+        <p>Cuéntanos sobre tu negocio y analizamos cómo podríamos ayudarte a conseguir más clientes y pedidos.</p>
+        <a href="https://wa.me/56951786715?text=Hola+Astro+Studio+%F0%9F%91%8B%2C+quiero+hacer+crecer+mi+restaurante.+%C2%BFPodemos+hablar%3F"
+            class="btn btn-primary" id="final-cta">
+            Quiero hacer crecer mi restaurante
+        </a>
+    </section>
+
+    <!-- ============ FLOATING NAVBAR ============ -->
+    <nav class="floating-navbar" aria-label="Navegación rápida de secciones">
+        <a href="#servicios" class="nav-item" data-section="servicios">
+            <span class="nav-dot"></span>
+            Servicios
+        </a>
+        <a href="#resultados" class="nav-item" data-section="resultados">
+            <span class="nav-dot"></span>
+            Resultados
+        </a>
+        <a href="#planes" class="nav-item" data-section="planes">
+            <span class="nav-dot"></span>
+            Planes
+        </a>
+    </nav>
+
+    <!-- ============ FOOTER ============ -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <img src="assets/img/Logo.svg" alt="Astro Studio">
+                </div>
+                <p style="color: rgba(255,255,255,0.6); line-height: 1.7;">Marketing especializado en restaurantes y
+                    marcas gastronómicas. Branding, contenido, publicidad y sistema de pedidos.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Servicios</h3>
+                <ul>
+                    <li><a href="#servicios">Branding Gastronómico</a></li>
+                    <li><a href="#servicios">Marketing &amp; Contenido</a></li>
+                    <li><a href="#servicios">Meta Ads</a></li>
+                    <li><a href="#wippy">Sistema de Pedidos (Wippy)</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Redes Sociales</h3>
+                <ul>
+                    <li><a href="https://www.instagram.com/astrostudiocl/" target="_blank"
+                            rel="noopener noreferrer">Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/company/audifycl/about/" target="_blank"
+                            rel="noopener noreferrer">LinkedIn</a></li>
+                    <li><a href="https://wa.me/56951786715" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=61583286548470" target="_blank"
+                            rel="noopener noreferrer">Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Astro Studio &mdash; Marketing para restaurantes y marcas gastronómicas.</p>
+        </div>
+    </footer>
+
+    <!-- ============ SCRIPTS ============ -->
+    <script>
+        // Navbar scroll effect
+        const navbar = document.getElementById('navbar');
+        if (navbar) {
+            window.addEventListener('scroll', function () {
+                navbar.classList.toggle('scrolled', window.scrollY > 50);
+            }, { passive: true });
+        }
+
+        // Scroll animations via IntersectionObserver
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        const observer = new IntersectionObserver(function (entries) {
+            entries.forEach(function (entry) {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.service-card, .pricing-card, .resultado-card, .sistema-step, .wippy-flow-step, .faq-item').forEach(function (el) {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+
+        // FAQ Accordion
+        document.querySelectorAll('.faq-item').forEach(function (item) {
+            item.addEventListener('click', function () {
+                var isActive = item.classList.contains('active');
+                document.querySelectorAll('.faq-item').forEach(function (other) {
+                    other.classList.remove('active');
+                });
+                if (!isActive) {
+                    item.classList.add('active');
+                }
+            });
+        });
+
+        // Floating Navbar — Dynamic section indicator
+        var floatingNavbar = document.querySelector('.floating-navbar');
+        if (floatingNavbar) {
+            var sections = document.querySelectorAll('#servicios, #resultados, #planes');
+            var navItems = document.querySelectorAll('.nav-item');
+            var isMobile = window.innerWidth <= 768;
+            var sectionObserverOptions = {
+                threshold: isMobile ? 0.15 : 0.3,
+                rootMargin: isMobile ? '-50px 0px -50px 0px' : '-100px 0px -100px 0px'
+            };
+            var navObserver = new IntersectionObserver(function (entries) {
+                entries.forEach(function (entry) {
+                    if (entry.isIntersecting) {
+                        var sectionId = entry.target.id;
+                        navItems.forEach(function (item) { item.classList.remove('active'); });
+                        var activeNavItem = document.querySelector('.nav-item[data-section="' + sectionId + '"]');
+                        if (activeNavItem) activeNavItem.classList.add('active');
+                    }
+                });
+            }, sectionObserverOptions);
+            sections.forEach(function (section) { navObserver.observe(section); });
+        }
+    </script>
+</body>
+
+</html>
