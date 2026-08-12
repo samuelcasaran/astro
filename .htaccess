@@ -11,6 +11,12 @@
     RewriteBase /audify/
 
     # ============================================
+    # FORZAR HTTPS Y SSL
+    # ============================================
+    RewriteCond %{HTTPS} off
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    # ============================================
     # URLS LIMPIAS - Quitar .php de las URLs
     # ============================================
     
