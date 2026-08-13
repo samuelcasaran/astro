@@ -8,12 +8,15 @@
 # Habilitar RewriteEngine
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteBase /audify/
+    RewriteBase /
 
     # ============================================
     # FORZAR HTTPS Y SSL
+    # Funciona tanto en Apache directo como detrás
+    # de un proxy/CDN (hosting compartido)
     # ============================================
-    RewriteCond %{HTTPS} off
+    RewriteCond %{HTTPS} off [OR]
+    RewriteCond %{HTTP:X-Forwarded-Proto} !https
     RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
     # ============================================
