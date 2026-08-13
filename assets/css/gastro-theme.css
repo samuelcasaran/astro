@@ -993,7 +993,9 @@ footer { background: #070503; }
     }
 
     .whatsapp-float {
-        bottom: 1.5rem;
-        right: 1.5rem;
+        /* El floating-navbar en móvil está a bottom:1rem y mide ~55px.
+           Lo subimos para que el botón quede claramente encima. */
+        bottom: 5.5rem;
+        right: 1.25rem;
     }
 }
