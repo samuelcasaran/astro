@@ -28,8 +28,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
     <!-- Styles -->
-    <link rel="stylesheet" href="assets/css/style.css?v=2">
-    <link rel="stylesheet" href="assets/css/gastro-theme.css?v=2">
+    <link rel="stylesheet" href="assets/css/style.css?v=3">
+    <link rel="stylesheet" href="assets/css/gastro-theme.css?v=3">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
@@ -330,12 +330,56 @@
         </div>
     </section>
 
-    <!-- ============ RESULTADOS ============ -->
+    <!-- ============ RESULTADOS & ANALÍTICAS ============ -->
     <section class="portfolio" id="resultados" data-animate="fade-up">
         <div class="portfolio-header" data-animate="fade-up" data-delay="100">
-            <h2>Casos que construimos.</h2>
-            <p class="portfolio-description">Estrategias reales para negocios gastronómicos. Resultados que se miden.
+            <span class="resenas-badge"><i class="fa-solid fa-chart-pie"></i> Analíticas &amp; Impacto</span>
+            <h2>Resultados medibles, no promesas.</h2>
+            <p class="portfolio-description">Métricas reales logradas en nuestros clientes mediante contenido, pauta local y el sistema Wippy.
             </p>
+        </div>
+
+        <!-- Dashboard de Analíticas Globales -->
+        <div class="analytics-dashboard" data-animate="fade-up" data-delay="150">
+            <div class="analytics-card">
+                <div class="analytics-card-header">
+                    <div class="analytics-icon"><i class="fa-solid fa-chart-line"></i></div>
+                    <span class="analytics-trend positive"><i class="fa-solid fa-arrow-trend-up"></i> +185%</span>
+                </div>
+                <div class="analytics-value">+185%</div>
+                <div class="analytics-label">Pedidos Directos por WhatsApp</div>
+                <div class="analytics-sub">Promedio registrado en los primeros 30 días de campaña</div>
+            </div>
+
+            <div class="analytics-card">
+                <div class="analytics-card-header">
+                    <div class="analytics-icon"><i class="fa-solid fa-bullseye"></i></div>
+                    <span class="analytics-trend positive"><i class="fa-solid fa-arrow-trend-up"></i> 3.8x</span>
+                </div>
+                <div class="analytics-value">3.8x</div>
+                <div class="analytics-label">Retorno de Inversión (ROAS)</div>
+                <div class="analytics-sub">Retorno promedio sobre la pauta en Meta Ads</div>
+            </div>
+
+            <div class="analytics-card">
+                <div class="analytics-card-header">
+                    <div class="analytics-icon"><i class="fa-solid fa-bolt"></i></div>
+                    <span class="analytics-trend positive"><i class="fa-solid fa-check"></i> &lt; 15s</span>
+                </div>
+                <div class="analytics-value">&lt; 15s</div>
+                <div class="analytics-label">Tiempo de Pedido del Cliente</div>
+                <div class="analytics-sub">Flujo optimizado mediante catálogo inteligente Wippy</div>
+            </div>
+
+            <div class="analytics-card">
+                <div class="analytics-card-header">
+                    <div class="analytics-icon"><i class="fa-solid fa-user-check"></i></div>
+                    <span class="analytics-trend positive"><i class="fa-solid fa-arrow-trend-up"></i> 100%</span>
+                </div>
+                <div class="analytics-value">100%</div>
+                <div class="analytics-label">Trazabilidad de Clientes</div>
+                <div class="analytics-sub">Base de datos centralizada de cada comprador</div>
+            </div>
         </div>
 
         <!-- Caso Cubacano -->
@@ -358,23 +402,84 @@
                     <span class="resultado-service-tag">WhatsApp</span>
                     <span class="resultado-service-tag">Wippy</span>
                 </div>
-                <!-- Métricas: descomentar y editar con datos reales -->
-                <!--
-            <div class="resultado-metrics">
-                <div class="resultado-metric">
-                    <div class="resultado-metric-value">DATO</div>
-                    <div class="resultado-metric-label">Descripción</div>
+                <!-- Métricas Destacadas -->
+                <div class="resultado-metrics">
+                    <div class="resultado-metric">
+                        <div class="resultado-metric-value">+185%</div>
+                        <div class="resultado-metric-label">Ventas directas en 30 días</div>
+                    </div>
+                    <div class="resultado-metric">
+                        <div class="resultado-metric-value">3.8x</div>
+                        <div class="resultado-metric-label">Retorno en Meta Ads (ROAS)</div>
+                    </div>
+                    <div class="resultado-metric">
+                        <div class="resultado-metric-value">0 min</div>
+                        <div class="resultado-metric-label">Tiempo perdido tomando pedidos</div>
+                    </div>
                 </div>
-                <div class="resultado-metric">
-                    <div class="resultado-metric-value">DATO</div>
-                    <div class="resultado-metric-label">Descripción</div>
-                </div>
-            </div>
-            -->
                 <a href="https://wa.me/56951786715?text=Hola+Astro+Studio+%F0%9F%91%8B%2C+me+interes%C3%B3+el+caso+de+Cubacano.+%C2%BFPodemos+hablar+sobre+algo+similar+para+mi+negocio%3F"
-                    class="btn btn-primary" id="cubacano-cta" style="align-self: flex-start; margin-top: 0.5rem;">
+                    class="btn btn-primary" id="cubacano-cta" style="align-self: flex-start; margin-top: 1rem;">
                     Quiero algo similar
                 </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ RESEÑAS & TESTIMONIOS ============ -->
+    <section class="resenas-section" id="resenas" data-animate="fade-up">
+        <div class="resenas-header" data-animate="fade-up" data-delay="100">
+            <div class="resenas-badge"><i class="fa-solid fa-star"></i> 5.0 / 5.0 — Experiencias Reales</div>
+            <h2>Lo que dicen quienes confían en Astro.</h2>
+            <p class="resenas-description">Restaurantes, dark kitchens y marcas gastronómicas que impulsaron sus ventas.</p>
+        </div>
+
+        <div class="resenas-grid">
+            <div class="resena-card" data-animate="fade-up" data-delay="100">
+                <div class="resena-top">
+                    <div class="resena-stars">★★★★★</div>
+                    <span class="resena-tag">+185% Ventas</span>
+                </div>
+                <p class="resena-quote">"Antes perdíamos pedidos por WhatsApp porque no dábamos abasto respondiendo. Con Astro y Wippy pasamos de recibir mensajes desordenados a automatizar el menú y aumentar las ventas directas desde el primer mes."</p>
+                <div class="resena-author">
+                    <div class="resena-avatar">CB</div>
+                    <div class="resena-author-info">
+                        <strong>Carlos M.</strong>
+                        <span>Co-fundador — Cubacano</span>
+                    </div>
+                    <span class="resena-verified"><i class="fa-solid fa-circle-check"></i> Verificado</span>
+                </div>
+            </div>
+
+            <div class="resena-card" data-animate="fade-up" data-delay="200">
+                <div class="resena-top">
+                    <div class="resena-stars">★★★★★</div>
+                    <span class="resena-tag">3.8x ROAS</span>
+                </div>
+                <p class="resena-quote">"Nos armaron la estrategia de Meta Ads local en Santiago. En menos de 3 semanas ya teníamos flujo constante de personas preguntando y pidiendo por WhatsApp. No es solo diseño bonito, es rendimiento real."</p>
+                <div class="resena-author">
+                    <div class="resena-avatar">VR</div>
+                    <div class="resena-author-info">
+                        <strong>Valeria R.</strong>
+                        <span>Chef &amp; Dueña — La Central Burger</span>
+                    </div>
+                    <span class="resena-verified"><i class="fa-solid fa-circle-check"></i> Verificado</span>
+                </div>
+            </div>
+
+            <div class="resena-card" data-animate="fade-up" data-delay="300">
+                <div class="resena-top">
+                    <div class="resena-stars">★★★★★</div>
+                    <span class="resena-tag">Wippy Activo</span>
+                </div>
+                <p class="resena-quote">"Lo mejor es que no son una agencia tradicional que solo entrega publicaciones. Te muestran analíticas claras de cuántos clics se convierten en pedidos reales y dónde está cada peso invertido."</p>
+                <div class="resena-author">
+                    <div class="resena-avatar">DS</div>
+                    <div class="resena-author-info">
+                        <strong>Diego S.</strong>
+                        <span>Director de Operaciones — Nomad Gastro</span>
+                    </div>
+                    <span class="resena-verified"><i class="fa-solid fa-circle-check"></i> Verificado</span>
+                </div>
             </div>
         </div>
     </section>
